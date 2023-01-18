@@ -4,3 +4,4 @@ class Solution:
             for num2 in range(num1+1,len(nums)):
                 if nums[num1] + nums[num2] == target:
                     return [num1,num2]
+                
